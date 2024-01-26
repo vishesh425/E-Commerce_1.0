@@ -1,1219 +1,1408 @@
 /* desktop 970+
 teblate 960px 760px
 phone 480 240 */
-body{
+
+body {
   margin: 0;
   padding: 0;
-  font-family: Montserrat ;
+  font-family: Montserrat;
 }
+
 .home-page {
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-  }
-  .home-page .div {
-    background-color: #ffffff;
-    width: 1348px;
-    height: 3065px;
-    position: relative;
-  }
-  
-  .home-page .footer {
-    position: absolute;
-    width: 1348px;
-    height: 300px;
-    top: 2765px;
-    left: 0;
-    background-color: transparent;
-  }
-  
-  .home-page .overlap-group {
-    position: relative;
-    width: 1348px;
-    height: 300px;
-    background-color: #161616
-  }
-  
-  .home-page .text-wrapper {
-    position: absolute;
-    top: 250px;
-    left: 600px;
-    font-family: "Cabin-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff87;
-    font-size: 12px;
-    letter-spacing: 0.32px;
-    line-height: 22px;
-    white-space: nowrap;
-  }
-  
-  .home-page .group {
-    position: absolute;
-    width: 298px;
-    height: 134px;
-    top: 50px;
-    left: 278px;
-  }
-  
-  .home-page .p {
-    position: absolute;
-    width: 200px;
-    top: 20px;
-    left: 1px;
-    font-family: "Montserrat-Regular", Helvetica;
-    /* font-weight: 400; */
-    color: #ffffff;
-    font-size: 12px;
-    letter-spacing: 0;
-    line-height: 22px;
-  }
-  
-  .home-page .FB {
-    position: absolute;
-    width: 15px;
-    height: 15px;
-    top: 90px;
-    left: 0;
-  }
-  
-  .home-page .bxl-telegram {
-    position: absolute;
-    width: 15px;
-    height: 15px;
-    top: 90px;
-    left: 30px;
-  }
-  
-  .home-page .akar-icons-youtube {
-    position: absolute;
-    width: 15px;
-    height: 15px;
-    top: 90px;
-    left: 60px;
-  }
-  
-  .home-page .akar-icons-instagram {
-    position: absolute;
-    width: 15px;
-    height: 15px;
-    top: 90px;
-    left: 90px;
-  }
-  
-  .home-page .text-wrapper-2 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-family: "Montserrat-Bold", Helvetica;
-    font-weight: 700;
-    color: #ffffff;
-    font-size: 11px;
-    letter-spacing: 0.32px;
-    line-height: 22px;
-    white-space: nowrap;
-  }
-  
-  .home-page .quick-links {
-    position: absolute;
-    width: 117px;
-    height: 202px;
-    top: 50px;
-    left: 525px;
-  }
-  
-  .home-page .text-wrapper-3 {
-    position: absolute;
-    top: 25px;
-    left: 0;
-    font-family: "Montserrat-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 12px;
-    letter-spacing: 0.32px;
-    line-height:30px;
-    padding: 0;
-  }
-  .text-wrapper-3 li {
-    list-style: none;
-  }
-  .text-wrapper-3 li a {
-   text-decoration: none;
-   color: white;
-  }
-  
-  .home-page .quick-links-2 {
-    position: absolute;
-    width: 270px;
-    height: 202px;
-    top: 50px;
-    left: 665px;
-  }
-  
-  .home-page .contact {
-    position: absolute;
-    width: 245px;
-    height: 122px;
-    top: 50px;
-    left: 905px;
-  }
-  
-  .home-page .free-consultation {
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-family: "Cabin-Bold", Helvetica;
-    font-weight: 700;
-    color: #ffffff;
-    font-size: 11px;
-    letter-spacing: 0.32px;
-    line-height: 22px;
-    white-space: nowrap;
-  }
-  
-  .home-page .line {
-    position: absolute;
-    width: 1348px;
-    height: 1px;
-    background-color: rgb(82, 74, 74);
-    top: 257px;
-    left: 0;
-  }
-  
-  .home-page .div-2 {
-    position: absolute;
-    width: 1348px;
-    height: 700px;
-    top: 0;
-    left: 0;
-  }
-  
-  .home-page .overlap {
-    position: relative;
-    background-color: #000;
-    width: 1348px;
-    height: 500px;
-  }
-  .home-page .overlap::before{
-    content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-    opacity: 0.5;
-    background: url("./image/image\ 2.png") no-repeat center center;
-    background-position: bottom;
-    background-size: cover;
-  }
-  .home-page .div-2-text{
-    position: absolute;
-    top: 170px;
-    width: 100%;
-    height: 50%;
-    color: #ffffff;
-    text-align: center;
-    }
-    .home-page .text-wrapper-6 {
-      font-size: 10px;
-      letter-spacing: 3px;
-    }
-  .home-page .kaal-sarp-puja-in {
-    font-family: "Montserrat", Helvetica;
-    margin: 5px;
-    font-size: 42px;
-    letter-spacing: 0px;
-    line-height: 50px;
-  }
-  .home-page .span {
-    font-weight: 500;
-  }
-  .home-page .text-wrapper-4 {
-    font-weight: 700;
-  }
-  .home-page .contact-guruji-for {
-    font-size: 15px;
-    line-height: 25px;
-  }
-  .home-page .main-btn {
-    gap: 10px;
-    padding: 10px 15px;
-    top: 210px;
-    left: 590px;
-    background-color: #ffffff;
-    display: inline-flex;
-    align-items: center;
-    position: absolute;
-    text-decoration: none;
-  }
-  
-  .home-page .frame {
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    position: relative;
-    flex: 0 0 auto;
-  }
-  
-  .home-page .img {
-    position: relative;
-    width: 20px;
-    height: 20px;
-  }
-  
-  .home-page .text-wrapper-5 {
-    position: relative;
-    width: fit-content;
-    font-family: "Montserrat-SemiBold", Helvetica;
-    font-weight: 600;
-    color: #e9983f;
-    font-size: 12px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* width: 100%; */
+}
 
-  
-  .home-page .header {
-    position: absolute;
-    width: 1348px;
-    height: 80px;
-    top: 0;
-    left: 0;
-    background-color: #ffffff;
-    box-shadow: 0px 4px 13px #00000012;
-  }
-  
-  .home-page .logo {
-    position: absolute;
-    width: 150px;
-    height: 40px;
-    top: 17px;
-    left: 230px;
-    object-fit: cover;
-  }
-  
-  .home-page .nav-bar {
+.home-page .div {
+  background-color: #ffffff;
+  /* width: 1348px; */
+  /* height: 3065px; */
+  /* position: relative; */
+}
+
+.home-page .footer {
+  position: absolute;
+  /* width: 1348px; */
+  /* height: 300px; */
+  top: 2765px;
+  left: 0;
+  background-color: transparent;
+}
+
+.home-page .overlap-group {
+  position: relative;
+  width: 1348px;
+  height: 300px;
+  background-color: #161616
+}
+
+.home-page .text-wrapper {
+  position: absolute;
+  top: 250px;
+  left: 600px;
+  font-family: "Cabin-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff87;
+  font-size: 12px;
+  letter-spacing: 0.32px;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.home-page .group {
+  position: absolute;
+  width: 298px;
+  height: 134px;
+  top: 50px;
+  left: 278px;
+}
+
+.home-page .p {
+  position: absolute;
+  width: 200px;
+  top: 20px;
+  left: 1px;
+  font-family: "Montserrat-Regular", Helvetica;
+  /* font-weight: 400; */
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.home-page .FB {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 90px;
+  left: 0;
+}
+
+.home-page .bxl-telegram {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 90px;
+  left: 30px;
+}
+
+.home-page .akar-icons-youtube {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 90px;
+  left: 60px;
+}
+
+.home-page .akar-icons-instagram {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 90px;
+  left: 90px;
+}
+
+.home-page .text-wrapper-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 11px;
+  letter-spacing: 0.32px;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.home-page .quick-links {
+  position: absolute;
+  width: 117px;
+  height: 202px;
+  top: 50px;
+  left: 525px;
+}
+
+.home-page .text-wrapper-3 {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0.32px;
+  line-height: 30px;
+  padding: 0;
+}
+
+.text-wrapper-3 li {
+  list-style: none;
+}
+
+.text-wrapper-3 li a {
+  text-decoration: none;
+  color: white;
+}
+
+.home-page .quick-links-2 {
+  position: absolute;
+  width: 270px;
+  height: 202px;
+  top: 50px;
+  left: 665px;
+}
+
+.home-page .contact {
+  position: absolute;
+  width: 245px;
+  height: 122px;
+  top: 50px;
+  left: 905px;
+}
+
+.home-page .free-consultation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Cabin-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 11px;
+  letter-spacing: 0.32px;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.home-page .line {
+  position: absolute;
+  width: 1348px;
+  height: 1px;
+  background-color: rgb(82, 74, 74);
+  top: 257px;
+  left: 0;
+}
+
+.home-page .div-2 {
+  position: absolute;
+  /* width: 1348px; */
+  /* height: 700px; */
+  top: 0;
+  left: 0;
+}
+
+.home-page .overlap {
+  position: relative;
+  background-color: #000;
+  width: 1348px;
+  height: 500px;
+}
+
+.home-page .overlap::before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  opacity: 0.5;
+  background: url("./image/image\ 2.png") no-repeat center center;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.home-page .div-2-text {
+  position: absolute;
+  top: 170px;
+  width: 100%;
+  height: 50%;
+  color: #ffffff;
+  text-align: center;
+}
+
+.home-page .text-wrapper-6 {
+  font-size: 10px;
+  letter-spacing: 3px;
+}
+
+.home-page .kaal-sarp-puja-in {
+  font-family: "Montserrat", Helvetica;
+  margin: 5px;
+  font-size: 42px;
+  letter-spacing: 0px;
+  line-height: 50px;
+}
+
+.home-page .span {
+  font-weight: 500;
+}
+
+.home-page .text-wrapper-4 {
+  font-weight: 700;
+}
+
+.home-page .contact-guruji-for {
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.home-page .main-btn {
+  gap: 10px;
+  padding: 10px 15px;
+  top: 210px;
+  left: 590px;
+  background-color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  position: absolute;
+  text-decoration: none;
+}
+
+.home-page .frame {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.home-page .img {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+
+.home-page .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #e9983f;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+
+
+.home-page .header {
+  position: absolute;
+  width: 1348px;
+  height: 80px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 13px #00000012;
+}
+
+.home-page .logo {
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  top: 17px;
+  left: 230px;
+  object-fit: cover;
+}
+
+.home-page .nav-bar {
+  display: flex;
+  gap: 25px;
+  top: 15px;
+  position: absolute;
+  left: 370px;
+  /* 
     display: inline-flex;
     align-items: flex-start;
-    gap: 25px;
-    position: absolute;
-    top: 15px;
-    left: 370px;
-  }
-  
-  .home-page .nav-bar-2 {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 16px;
-    position: relative;
-    flex: 0 0 auto;
-  }
-  
-  .home-page .frame-2 {
-    display: flex;
-    height: 22px;
-    align-items: flex-start;
-    gap: 3px;
-    padding: 0px 4px;
-    position: relative;
-    align-self: stretch;
-    width: 100%;
-    text-decoration: none;
-    color: black;
-  }
-  .dropdown {
-    float: left;
-  }
-  
-  .dropdown .dropbtn {
-    font-size: 13px;  
-    border: none;
-    outline: none;
-    color: white;
-    padding: 1px 10px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-  }
-  .dropdown-content {
-    display: none; 
-    position: absolute;
-    background-color: #f9f9f9;
-    top: 20px;
-    min-width: 130px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-    font-size: 13px;
-  }
-  
-  .dropdown-content a:hover {
-    background-color: #ddd;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
+    */
+}
 
-  
-  .home-page .text-wrapper-7 {
+.home-page .nav-bar-2 {
+  list-style: none;
+  align-items: flex-start;
+  gap: 16px;
+  flex-direction: column;
+  /* display: inline-flex;
     position: relative;
-    width: fit-content;
-    margin-top: -1px;
-    font-family: "Montserrat-Medium", Helvetica;
-    font-weight: 500;
-    color: var(--text-color);
-    font-size: 13px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .home-page .ci-chevron-down {
-    position: relative;
-    top: 3px;
-    width: 22px;
-    height: 12px;
-  }
-  
-  .home-page .questions {
-    position: absolute;
-    width: 265px;
-    height: 80px;
-    top: 0;
-    left: 780px;
-    background-color: #e9983f;
-  }
-  
-  .home-page .vector-wrapper {
-    position: absolute;
-    width: 45px;
-    height: 45px;
-    top: 15px;
-    left: 15px;
-    background-color: #ffffff4c;
-    border-radius: 25px;
-  }
-  
-  .home-page .vector {
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    top: 10px;
-    left: 10px;
-  }
-  
-  .home-page .group-2 {
-    position: absolute;
-    width: 220px;
-    height: 55px;
-    top: 13px;
-    left: 76px;
-  }
-  
-  .home-page .text-wrapper-8 {
-    position: absolute;
-    top: 0;
-    left: 11px;
-    font-family: "Montserrat-Regular", Helvetica;
-    font-weight: 33px;
-    color: #ffffff;
-    font-size: 13px;
-    letter-spacing: 1px;
-    line-height: normal;
-  }
-  
-  .home-page .text-wrapper-9 {
-    position: absolute;
-    top: 26px;
-    left: 0;
-    font-size: 20px;
-    font-family: "Montserrat-SemiBold", Helvetica;
-    font-weight: 600;
-    color: #ffffff;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  /* third section csss */
-  .home-page .about {
-    position: absolute;
-    width: 1135px;
-    height: 517px;
-    top: 570px;
-    /* left: 395px; */
-  }
-  
-  .home-page .group-3 {
-    position: absolute;
-    width: 561px;
-    height: 395px;
-    top: 0;
-    left: 690px;
-  }
-  
-  .home-page .about-2 {
-    position: absolute;
-    top: 0;
-    left: 5px;
-    font-family: "Montserrat-SemiBold", Helvetica;
-    font-weight: 600;
-    color: #1807075e;
-    font-size: 10px;
-    letter-spacing: 2.66px;
-    line-height: normal;
-  }
-  
-  .home-page .authorized-pandit {
-    position: absolute;
-    width: 488px;
-    /* top: 10px; */
-    left: 20px;
-    font-family: "Montserrat-Medium", Helvetica;
-    font-weight: 400;
-    color: var(--text-color);
-    font-size: 25px;
-    letter-spacing: 0;
-    line-height: normal;
-    margin: 20px 0;
-  }
-  
-  .home-page .guruji-has-an {
-    position: absolute;
-    width: 440px;
-    top: 110px;
-    left: 0;
-    font-family: "Montserrat-Regular", Helvetica;
-    color: var(--text-color);
-    font-size: 13px;
-    letter-spacing: 0;
-    line-height: 21px;
-  }
-  
-  .home-page .main-btn-2 {
-    gap: 10px;
-    padding: 10px 10px;
-    top: 245px;
-    left: 0;
-    background-color: #e9983f;
-    display: inline-flex;
-    align-items: center;
-    position: absolute;
-    text-decoration: none;
-  }
-  .home-page .main-btn-2:hover{
-    gap: 12px;
-    background-color: #d33838;
-  }
-  
-  .home-page .text-wrapper-10 {
-    position: relative;
-    width: fit-content;
-    font-size: 13px;
-    text-align: center;
-    font-family: "Montserrat-SemiBold", Helvetica;
-    font-weight: 600;
-    color: #ffffff;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .home-page .rectangle {
-    height: 80px;
-    top: 25px;
-    left: 0;
-    position: absolute;
-    width: 3px;
-    background-color: #e9983f;
-  }
-  
-  .home-page .mask-group {
-    position: absolute;
-    width: 330px;
-    height: 370px;
-    top: -4px;
-    left: 280px;
-  }
-  
-  .home-page .kaal-sarp-puja {
-    position: absolute;
-    width: 1348px;
-    height: 719px;
-    top: 1000px;
-    left: 0;
-  }
-  
-  .home-page .overlap-2 {
-    position: relative;
-    height: 719px;
-  }
-  
-  .home-page .content-wrapper {
-    position: absolute;
-    width: 1348px;
-    height: 500px;
-    top: 0;
-    left: 0;
-    background-color: #f2ebe387;
-  }
-  
-  .home-page .content {
-    position: relative;
-    width: 617px;
-    height: 408px;
-    top: 105px;
-    left: 275px;
-  }
-  
-  .home-page .trimbakeshwar-kaal {
-    position: absolute;
-    width: 488px;
-    top: 0px;
-    left: 0;
-    font-family: "Montserrat-Medium", Helvetica;
-    font-weight: 400;
-    color: var(--text-color);
-    font-size: 25px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .home-page .kalsarp-pooja {
-    position: absolute;
-    width: 370px;
-    top: 95px;
-    left: 0;
-    font-family: "Montserrat-Regular", Helvetica;
-    font-weight: 400;
-    color: var(--text-color);
-    font-size: 12px;
-    letter-spacing: 0;
-    line-height: 22px;
- }
-  
-  .home-page .text-wrapper-11 {
-    position: absolute;
-    width: 370px;
-    top: 187px;
-    left: 35px;
-    font-family: "Montserrat-Medium", Helvetica;
-    font-weight: 500;
-    color: var(--text-color);
-    font-size: 13px;
-    letter-spacing: 0;
-    line-height: 22px;
-  }
-  
-  .home-page .text-wrapper-12 {
-    position: absolute;
-    width: 370px;
-    top: 210px;
-    left: 35px;
-    font-family: "Montserrat-Medium", Helvetica;
-    font-weight: 500;
-    color: var(--text-color);
-    font-size: 13px;
-    letter-spacing: 0;
-    line-height: 22px;
-  }
-  
-  .home-page .icon {
-    position: absolute;
-    width: 28px;
-    height: 28px;
-    top: 185px;
-    left: 0;
-    background-color: #e9983f;
-  }
-  
-  .home-page .img-2 {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    top: 4px;
-    left: 4px;
-  }
-  
-  .home-page .rupee-currency-icon-wrapper {
-    position: absolute;
-    width: 28px;
-    height: 28px;
-    top: 220px;
-    left: 0;
-    background-color: #e9983f;
-  }
-  
-  .home-page .main-btn-3 {
-    gap: 10px;
-    padding: 10px 10px;
-    top: 270px;
-    left: 0;
-    background-color: #e9983f;
-    display: inline-flex;
-    align-items: center;
-    position: absolute;
-    text-decoration: none;
-  }
-  .home-page .main-btn-3:hover{
-    gap: 12px;
-    background-color: #d33838;
-  }
-  .home-page .element {
-    position: relative;
-    width: fit-content;
-    margin-top: -1px;
-    font-family: "Montserrat-SemiBold", Helvetica;
-    font-weight: 600;
-    color: #ffffff;
-    font-size: 13px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .home-page .mask-group-2 {
-    position: absolute;
-    width: 345px;
-    height: 370px;
-    top: 75px;
-    left: 745px;
-    background-image: url(./image/image\ 5.png);
-    background-size: 100% 100%;
-  }
-  
-  .home-page .text-wrapper-13 {
-    position: absolute;
-    top: 1589px;
-    left: 600px;
-    font-family: "Montserrat-SemiBold", Helvetica;
-    font-weight: 600;
-    color: #1807075e;
-    font-size: 10px;
-    text-align: center;
-    letter-spacing: 2.66px;
-    line-height: normal;
-  }
-  
-  .home-page .other-pujas {
-    position: absolute;
-    width: 488px;
-    top: 1580px;
-    left: 450px;
-    font-family: "Montserrat-Medium", Helvetica;
-    font-weight: 400;
-    color: var(--text-color);
-    font-size: 28px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .home-page .pitra-dosh {
-    position: absolute;
-    width: 252px;
-    height: 295px;
-    top: 1710px;
-    left: 280px;
-    background-color: #ffffff;
-    border-radius: 5px;
-    box-shadow: 0px 4px 31px #00000014;
-  }
-  
-  .home-page .mask-group-3 {
-    position: absolute;
-    width: 250px;
-    height: 165px;
-    border-radius: 5px 5px 0 0;
-    top: 0;
-    left: 0;
-  }
-  
-  .home-page .pitra-dosh-nivaran {
-    position: absolute;
-    width: 249px;
-    height: 22px;
-    top: 180px;
-    left: 40px;
-  }
-  
-  .home-page .text-wrapper-14 {
-    position: absolute;
-    top: -1px;
-    left: 0;
-    font-family: "Montserrat-Bold", Helvetica;
-    font-weight: 700;
-    color: var(--text-color);
-    font-size: 14px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: 22px;
-    white-space: nowrap;
-  }
-  
-  .home-page .pitra-dosh-nivaran-wrapper {
-    position: absolute;
-    width: 249px;
-    height: 22px;
-    top: 205px;
-    left: 25px;
-  }
-  
-  .home-page .pitra-dosh-nivaran-2 {
-    position: absolute;
-    top: -1px;
-    left: 47px;
-    font-family: "Hind-Regular", Helvetica;
-    font-weight: 400;
-    color: var(--text-color);
-    font-size: 13px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: 22px;
-    white-space: nowrap;
-  }
-  
-  .home-page .button {
-    all: unset;
-    box-sizing: border-box;
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    padding: 8px 15px;
-    position: absolute;
-    top: 240px;
-    left: 60px;
-    background-color: #e9983f;
-  }
-  .home-page .button:hover{
-    gap: 12px;
-    background-color: #d33838;
-  }
-  .home-page .narayan-nagbali-puja {
-    position: absolute;
-    width: 252px;
-    height: 295px;
-    top: 1710px;
-    left: 555px; 
-    background-color: #ffffff;
-    border-radius: 5px;
-    box-shadow: 0px 4px 31px #00000014;
-  }
-  
-  .home-page .pitra-dosh-nivaran-3 {
-    position: absolute;
-    top: -1px;
-    left: 11px;
-    font-family: "Montserrat-Bold", Helvetica;
-    font-weight: 700;
-    color: var(--text-color);
-    font-size: 15px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: 22px;
-    white-space: nowrap;
-  }
-  
-  .home-page .maha-mrityunjay {
-    position: absolute;
-    width: 252px;
-    height: 295px;
-    top: 1710px;
-    left: 830px;
-    background-color: #ffffff;
-    border-radius: 5px;
-    box-shadow: 0px 4px 31px #00000014;
-  }
-  
-  .home-page .pitra-dosh-nivaran-4 {
-    position: absolute;
-    top: -1px;
-    left: 9px;
-    font-family: "Montserrat-Bold", Helvetica;
-    font-weight: 700;
-    color: var(--text-color);
-    font-size: 15px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: 22px;
-    white-space: nowrap;
-  }
-  
-  .home-page .pitra-dosh-nivaran-5 {
-    position: absolute;
-    top: -1px;
-    left: 63px;
-    font-family: "Hind-Regular", Helvetica;
-    font-weight: 400;
-    color: var(--text-color);
-    font-size: 12px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: 22px;
-    white-space: nowrap;
-  }
-  
-  .home-page .action-bar {
-    position: absolute;
-    width: 1348px;
-    height: 220px;
-    top: 2075px;
-    left: 0;
-  }
-    .home-page .overlap-3 {
-    position: relative;
-    background-color: #000;
-    width: 1348px;
-    height: 220px;
-    background-size: 100% 100%;
-  }
-  .home-page .overlap-3::before{
-    content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-    opacity: 0.7;
-    background: url("./image/image\ 1.png") no-repeat center center;
-    background-position: bottom;
-    background-size: cover;
-  }
-  .home-page .don-t-know-where-to {
-    position: absolute;
-    top: 30px;
-    left: 550px;
-    font-family: "Montserrat-SemiBold", Helvetica;
-    font-weight: 600;
-    color: #ffffffcf;
-    font-size: 10px;
-    text-align: center;
-    letter-spacing: 2.66px;
-    line-height: normal;
-  }
-  
-  .home-page .overlap-group-2 {
-    position: absolute;
-    width: 388px;
-    height: 160px;
-    top: 40px;
-    left: 450px;
-  }
-  
-  .home-page .book-your-kaal-sarp {
-    position: absolute;
-    width: 430px;
-    top: 0;
-    left: 0;
-    font-family: "Montserrat-Bold", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 23px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .home-page .text-wrapper-15 {
-    font-weight: 700;
-  }
-  
-  .home-page .text-wrapper-16 {
-    font-family: "Montserrat-Medium", Helvetica;
-    font-weight: 500;
-  }
-  
-  .home-page .main-btn-4 {
-    gap: 15px;
-    padding: 8px 15px;
-    top: 105px;
-    left: 154px;
-    background-color: #ffffff;
-    color: #e9983f;
-    display: inline-flex;
-    align-items: center;
-    position: absolute;
-    text-decoration: none;
+    flex: 0 0 auto; */
+}
 
-  }
-  /* .home-page .main-btn-4:hover {
+.home-page .frame-2 {
+  align-self: stretch;
+  align-items: flex-start;
+  display: flex;
+  height: 22px;
+  width: 100%;
+  padding: 0px 4px;
+  gap: 3px;
+  position: relative;
+  text-decoration: none;
+  color: black;
+}
+
+.dropdown {
+  float: left;
+}
+
+.dropdown .dropbtn {
+  font-size: 13px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 1px 10px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  top: 20px;
+  min-width: 130px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: 13px;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.home-page .text-wrapper-7 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--text-color);
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+
+}
+
+.home-page .ci-chevron-down {
+  position: relative;
+  top: 3px;
+  width: 22px;
+  height: 12px;
+}
+
+.home-page .questions {
+  position: absolute;
+  width: 265px;
+  height: 80px;
+  top: 0;
+  left: 780px;
+  background-color: #e9983f;
+}
+
+.home-page .vector-wrapper {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  top: 15px;
+  left: 15px;
+  background-color: #ffffff4c;
+  border-radius: 25px;
+}
+
+.home-page .vector {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 10px;
+  left: 10px;
+}
+
+.home-page .group-2 {
+  position: absolute;
+  width: 220px;
+  height: 55px;
+  top: 13px;
+  left: 76px;
+}
+
+.home-page .text-wrapper-8 {
+  position: absolute;
+  top: 0;
+  left: 11px;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 33px;
+  color: #ffffff;
+  font-size: 13px;
+  letter-spacing: 1px;
+  line-height: normal;
+}
+
+.home-page .text-wrapper-9 {
+  position: absolute;
+  top: 26px;
+  left: 0;
+  font-size: 20px;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+/* third section csss */
+.home-page .about {
+  position: absolute;
+  width: 1135px;
+  height: 517px;
+  top: 570px;
+  left: 0;
+}
+
+.home-page .group-3 {
+  position: absolute;
+  width: 561px;
+  height: 395px;
+  top: 0;
+  left: 690px;
+}
+
+.home-page .about-2 {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #1807075e;
+  font-size: 10px;
+  letter-spacing: 2.66px;
+  line-height: normal;
+}
+
+.home-page .authorized-pandit {
+  position: absolute;
+  width: 488px;
+  /* top: 10px; */
+  left: 20px;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-weight: 400;
+  color: var(--text-color);
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin: 20px 0;
+}
+
+.home-page .guruji-has-an {
+  position: absolute;
+  width: 440px;
+  top: 110px;
+  left: 0;
+  font-family: "Montserrat-Regular", Helvetica;
+  color: var(--text-color);
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 21px;
+}
+
+.home-page .main-btn-2 {
+  gap: 10px;
+  padding: 10px 10px;
+  top: 245px;
+  left: 0;
+  background-color: #e9983f;
+  display: inline-flex;
+  align-items: center;
+  position: absolute;
+  text-decoration: none;
+}
+
+.home-page .main-btn-2:hover {
+  gap: 12px;
+  background-color: #d33838;
+}
+
+.home-page .text-wrapper-10 {
+  position: relative;
+  width: fit-content;
+  font-size: 13px;
+  text-align: center;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home-page .rectangle {
+  height: 80px;
+  top: 25px;
+  left: 0;
+  position: absolute;
+  width: 3px;
+  background-color: #e9983f;
+}
+
+.home-page .mask-group {
+  position: absolute;
+  width: 330px;
+  height: 370px;
+  top: -4px;
+  left: 280px;
+}
+
+.home-page .kaal-sarp-puja {
+  position: absolute;
+  width: 1348px;
+  height: 719px;
+  top: 1000px;
+  left: 0;
+}
+
+.home-page .overlap-2 {
+  position: relative;
+  height: 719px;
+}
+
+.home-page .content-wrapper {
+  position: absolute;
+  width: 1348px;
+  height: 500px;
+  top: 0;
+  left: 0;
+  background-color: #f2ebe387;
+}
+
+.home-page .content {
+  position: relative;
+  width: 617px;
+  height: 408px;
+  top: 105px;
+  left: 275px;
+}
+
+.home-page .trimbakeshwar-kaal {
+  position: absolute;
+  width: 488px;
+  top: 0px;
+  left: 0;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-weight: 400;
+  color: var(--text-color);
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home-page .kalsarp-pooja {
+  position: absolute;
+  width: 370px;
+  top: 95px;
+  left: 0;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--text-color);
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.home-page .text-wrapper-11 {
+  position: absolute;
+  width: 370px;
+  top: 187px;
+  left: 35px;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--text-color);
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.home-page .text-wrapper-12 {
+  position: absolute;
+  width: 370px;
+  top: 210px;
+  left: 35px;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--text-color);
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.home-page .icon {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  top: 185px;
+  left: 0;
+  background-color: #e9983f;
+}
+
+.home-page .img-2 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 4px;
+  left: 4px;
+}
+
+.home-page .rupee-currency-icon-wrapper {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  top: 220px;
+  left: 0;
+  background-color: #e9983f;
+}
+
+.home-page .main-btn-3 {
+  gap: 10px;
+  padding: 10px 10px;
+  top: 270px;
+  left: 0;
+  background-color: #e9983f;
+  display: inline-flex;
+  align-items: center;
+  position: absolute;
+  text-decoration: none;
+}
+
+.home-page .main-btn-3:hover {
+  gap: 12px;
+  background-color: #d33838;
+}
+
+.home-page .element {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home-page .mask-group-2 {
+  position: absolute;
+  width: 345px;
+  height: 370px;
+  top: 75px;
+  left: 745px;
+  background-image: url(./image/image\ 5.png);
+  background-size: 100% 100%;
+}
+
+.home-page .text-wrapper-13 {
+  position: absolute;
+  top: 1589px;
+  left: 600px;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #1807075e;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 2.66px;
+  line-height: normal;
+}
+
+.home-page .other-pujas {
+  position: absolute;
+  width: 488px;
+  top: 1580px;
+  left: 450px;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-weight: 400;
+  color: var(--text-color);
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home-page .pitra-dosh {
+  position: absolute;
+  width: 252px;
+  height: 295px;
+  top: 1710px;
+  left: 280px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 4px 31px #00000014;
+}
+
+.home-page .mask-group-3 {
+  position: absolute;
+  width: 250px;
+  height: 165px;
+  border-radius: 5px 5px 0 0;
+  top: 0;
+  left: 0;
+}
+
+.home-page .pitra-dosh-nivaran {
+  position: absolute;
+  width: 249px;
+  height: 22px;
+  top: 180px;
+  left: 40px;
+}
+
+.home-page .text-wrapper-14 {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--text-color);
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.home-page .pitra-dosh-nivaran-wrapper {
+  position: absolute;
+  width: 249px;
+  height: 22px;
+  top: 205px;
+  left: 25px;
+}
+
+.home-page .pitra-dosh-nivaran-2 {
+  position: absolute;
+  top: -1px;
+  left: 47px;
+  font-family: "Hind-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--text-color);
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.home-page .button {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 15px;
+  position: absolute;
+  top: 240px;
+  left: 60px;
+  background-color: #e9983f;
+}
+
+.home-page .button:hover {
+  gap: 12px;
+  background-color: #d33838;
+}
+
+.home-page .narayan-nagbali-puja {
+  position: absolute;
+  width: 252px;
+  height: 295px;
+  top: 1710px;
+  left: 555px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 4px 31px #00000014;
+}
+
+.home-page .pitra-dosh-nivaran-3 {
+  position: absolute;
+  top: -1px;
+  left: 11px;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--text-color);
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.home-page .maha-mrityunjay {
+  position: absolute;
+  width: 252px;
+  height: 295px;
+  top: 1710px;
+  left: 830px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 4px 31px #00000014;
+}
+
+.home-page .pitra-dosh-nivaran-4 {
+  position: absolute;
+  top: -1px;
+  left: 9px;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--text-color);
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.home-page .pitra-dosh-nivaran-5 {
+  position: absolute;
+  top: -1px;
+  left: 63px;
+  font-family: "Hind-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--text-color);
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.home-page .action-bar {
+  position: absolute;
+  width: 1348px;
+  height: 220px;
+  top: 2075px;
+  left: 0;
+}
+
+.home-page .overlap-3 {
+  position: relative;
+  background-color: #000;
+  width: 1348px;
+  height: 220px;
+  background-size: 100% 100%;
+}
+
+.home-page .overlap-3::before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  opacity: 0.7;
+  background: url("./image/image\ 1.png") no-repeat center center;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.home-page .don-t-know-where-to {
+  position: absolute;
+  top: 30px;
+  left: 550px;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffffcf;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 2.66px;
+  line-height: normal;
+}
+
+.home-page .overlap-group-2 {
+  position: absolute;
+  width: 388px;
+  height: 160px;
+  top: 40px;
+  left: 450px;
+}
+
+.home-page .book-your-kaal-sarp {
+  position: absolute;
+  width: 430px;
+  top: 0;
+  left: 0;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 23px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home-page .text-wrapper-15 {
+  font-weight: 700;
+}
+
+.home-page .text-wrapper-16 {
+  font-family: "Montserrat-Medium", Helvetica;
+  font-weight: 500;
+}
+
+.home-page .main-btn-4 {
+  gap: 15px;
+  padding: 8px 15px;
+  top: 105px;
+  left: 154px;
+  background-color: #ffffff;
+  color: #e9983f;
+  display: inline-flex;
+  align-items: center;
+  position: absolute;
+  text-decoration: none;
+
+}
+
+/* .home-page .main-btn-4:hover {
     gap: 18px;
     color: white;
     background-color: #e9983f;
   }
    */
-  .home-page .element-2 {
-    position: relative;
-    width: fit-content;
-    margin-top: -1px;
-    font-family: "Montserrat-SemiBold", Helvetica;
-    font-weight: 600;
-    font-size: 13px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
+.home-page .element-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-weight: 600;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home-page .overlap-4 {
+  position: absolute;
+  width: 1348px;
+  height: 470px;
+  top: 2295px;
+  left: 0;
+  background-color: #f2ebe387;
+}
+
+.home-page .address {
+  position: absolute;
+  width: 555px;
+  top: 160px;
+  left: 278px;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--text-color);
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 11px;
+}
+
+.home-page .contact-2 {
+  position: absolute;
+  top: 75px;
+  left: 280px;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #1807075e;
+  font-size: 10px;
+  text-align: right;
+  letter-spacing: 2px;
+  line-height: normal;
+}
+
+.home-page .connect-with-acharya {
+  position: absolute;
+  width: 488px;
+  top: 70px;
+  left: 290px;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-weight: 400;
+  color: var(--text-color);
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home-page .rectangle-2 {
+  height: 50px;
+  top: 100px;
+  left: 275px;
+  position: absolute;
+  width: 3px;
+  background-color: #e9983f;
+}
+
+.home-page .inputs {
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+  align-items: flex-start;
+  gap: 10px;
+  position: absolute;
+  top: 71px;
+  left: 690px;
+}
+
+.home-page .input-main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.home-page .frame-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 7px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #1807071c;
+}
+
+.home-page .input-text {
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #6a6a6a;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  background: transparent;
+  border: none;
+  padding: 0;
+  outline: none;
+  ;
+}
+
+.home-page .input-main-wrapper {
+  width: 370px;
+  top: 120px;
+  left: 690px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: absolute;
+}
+
+.home-page .div-wrapper {
+  width: 385px;
+  top: 168px;
+  left: 690px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: absolute;
+}
+
+.home-page .frame-4 {
+  align-items: center;
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding: 7px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  color: #6a6a6a;
+  background-color: #ffffff;
+  border-radius: 5px;
+  outline: none;
+}
+
+.frame-4 option {
+  font-size: 13px;
+}
+
+.home-page .input-text-2 {
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #6a6a6a;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home-page .vector-2 {
+  position: relative;
+  width: 15px;
+  height: 15px;
+  margin-right: 1px;
+}
+
+.home-page .inputs-2 {
+  width: 175px;
+  top: 220px;
+  left: 690px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: absolute;
+}
+
+.home-page .inputs-3 {
+  width: 158px;
+  top: 220px;
+  left: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: absolute;
+}
+
+.home-page .inputs-4 {
+  width: 370px;
+  top: 265px;
+  left: 690px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: absolute;
+}
+
+.home-page .input-main-2 {
+  display: flex;
+  flex-direction: column;
+  height: 75px;
+  align-items: flex-start;
+  gap: 5px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.home-page .frame-5 {
+  align-items: flex-start;
+  flex: 1;
+  flex-grow: 1;
+  border: 1px solid;
+  border-color: #1807071c;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding: 14px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.home-page .main-btn-5 {
+  all: unset;
+  box-sizing: border-box;
+  gap: 10px;
+  padding: 8px 13px;
+  top: 360px;
+  left: 690px;
+  background-color: #e9983f;
+  display: inline-flex;
+  align-items: center;
+  position: absolute;
+}
+
+.home-page .main-btn-5:hover {
+  gap: 12px;
+  background-color: #d33838;
+}
+
+.home-page .icon_5 {
+  display: none;
+}
+
+
+@media screen and (max-width: 580px) {
+  .home-page .logo {
+    width: 120px;
+    height: 30px;
+    top: 25px;
+    left: 10px;
   }
-  .home-page .overlap-4 {
-    position: absolute;
-    width: 1348px;
-    height: 470px;
-    top: 2295px;
-    left: 0;
-    background-color: #f2ebe387;
+  /* section css */
+  .home-page .overlap{
+    width: 100vw;
+    height: 60vh;   
   }
-  
-  .home-page .address {
+  .home-page .div-2-text{
     position: absolute;
-    width: 555px;
-    top: 160px;
-    left: 278px;
-    font-family: "Montserrat-Regular", Helvetica;
-    font-weight: 400;
-    color: var(--text-color);
-    font-size: 12px;
-    letter-spacing: 0;
-    line-height: 11px;
+    top:18vh;
+    left:0;
   }
-  
-  .home-page .contact-2 {
+  .home-page .text-wrapper-6{
+    font-size: 8px;
+  }
+  .home-page .kaal-sarp-puja-in{
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .home-page .contact-guruji-for{
+    font-size: 14px;
+  }
+  .home-page .main-btn{
     position: absolute;
-    top: 75px;
-    left: 280px;
-    font-family: "Montserrat-SemiBold", Helvetica;
-    font-weight: 600;
-    color: #1807075e;
+    top:180px;
+    left:210px;
+    gap: 4px;
+    padding: 9px 10px;
+  }
+  .home-page .text-wrapper-5{
     font-size: 10px;
-    text-align: right;
-    letter-spacing: 2px;
-    line-height: normal;
   }
-  
-  .home-page .connect-with-acharya {
-    position: absolute;
-    width: 488px;
-    top: 70px;
-    left: 290px;
-    font-family: "Montserrat-Medium", Helvetica;
-    font-weight: 400;
-    color: var(--text-color);
-    font-size: 25px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .home-page .rectangle-2 {
-    height: 50px;
-    top: 100px;
-    left: 275px;
-    position: absolute;
-    width: 3px;
-    background-color: #e9983f;
-  }
-  
-  .home-page .inputs {
-    display: flex;
-    flex-direction: column;
-    width: 370px;
-    align-items: flex-start;
-    gap: 10px;
-    position: absolute;
-    top: 71px;
-    left: 690px;
-  }
-  
-  .home-page .input-main {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 5px;
-    position: relative;
-    align-self: stretch;
-    width: 100%;
-    flex: 0 0 auto;
-  }
-  
-  .home-page .frame-3 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    padding: 7px;
-    position: relative;
-    align-self: stretch;
-    width: 100%;
-    flex: 0 0 auto;
-    background-color: #ffffff;
-    border-radius: 5px;
-    border: 1px solid;
-    border-color: #1807071c;
-  }
-  
-  .home-page .input-text {
-    position: relative;
-    flex: 1;
-    margin-top: -1px;
-    font-family: "Montserrat-Regular", Helvetica;
-    font-weight: 400;
-    color: #6a6a6a;
-    font-size: 12px;
-    letter-spacing: 0;
-    line-height: normal;
-    background: transparent;
-    border: none;
-    padding: 0;
-    outline: none;
-    ;
-  }
-  
-  .home-page .input-main-wrapper {
-    width: 370px;
-    top: 120px;
-    left: 690px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-    position: absolute;
-  }
-  
-  .home-page .div-wrapper {
-    width: 385px;
-    top: 168px;
-    left: 690px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-    position: absolute;
+  .home-page .img{
+    height:15px;
+    width:15px;
   }
 
-  .home-page .frame-4 {
-    align-items: center;
-    flex: 0 0 auto;
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-    padding: 7px;
-    position: relative;
-    align-self: stretch;
-    width: 100%;
-    color: #6a6a6a;
-    background-color: #ffffff;
-    border-radius: 5px;
-    outline: none;
+  /* second section */
+  .home-page .about{
+    position: absolute;
+    top:400px;
+    left:0px;
+    width: 100vw;
+    /* display: block; */
   }
-  .frame-4 option{
-    font-size: 13px;
+  .home-page .group-3{
+    position:relative;
+    left:50px;
+    top:0;
+    display:bloak;
   }
-  
-  .home-page .input-text-2 {
-    position: relative;
-    flex: 1;
-    margin-top: -1px;
-    font-family: "Montserrat-Regular", Helvetica;
-    font-weight: 400;
-    color: #6a6a6a;
+  .home-page .about-2{
     font-size: 12px;
-    letter-spacing: 0;
-    line-height: normal;
   }
-  
-  .home-page .vector-2 {
+  .home-page .rectangle{
+    position:absolute;
+    top:30px;
+   height: 100px;
+   width:3px;
+  }
+  .home-page .authorized-pandit{
+    position: absolute;
+    top:10px;
+    font-size: 30px;
+  }
+  .home-page .guruji-has-an{
+    position: absolute;
+    top:140px;
+    font-size:16px;
+  }
+  .home-page .main-btn-2{
+    position: absolute;
+    top:320px;
+    gap: 4px;
+    padding: 9px 10px;
+  }
+    .home-page .mask-group{
     position: relative;
-    width: 15px;
-    height: 15px;
-    margin-right: 1px;
+    left:70px;
+    height:400px;
+    width:400px;
   }
-  
-  .home-page .inputs-2 {
-    width: 175px;
-    top: 220px;
-    left: 690px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
+
+
+
+
+
+  /* .topnav a:not(:first-child) {display: none;} */
+  .home-page .nav-bar {
+    display: none;
+    /* top: 50px;
+    background-color: red;
+    width: 100vw;
+    height: 50vh;
+    display: block;
+    left: 0px;
     position: absolute;
+    align-items: center; */
   }
-  
-  .home-page .inputs-3 {
-    width: 158px;
-    top: 220px;
-    left: 900px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
+
+  .home-page .nav-bar-2 {
+    /* position: relative; */
+    /* width: 100vw; */
+    /* padding: 10px 0px; */
+    /* align-items: center;  */
+    /* left: 150px; */
+  }
+
+  .home-page .questions {
+    display: none;
+  }
+
+  .home-page .icon_5 {
+    float: right;
+    display: block;
+    margin-top: 20px;
+    margin-right: 30px;
+    font-size: 30px;
+  }
+
+  .home-page .header {
+    max-width: 100vw;
+  }
+
+  /* responsiv */
+  .nav-bar.responsive {
+    display: block;
+    
+    /* display: flex;
+    gap: 25px;
+    top: 15px;
+    */
     position: absolute;
+    left: 150px; 
   }
-  
-  .home-page .inputs-4 {
-    width: 370px;
-    top: 265px;
-    left: 690px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-    position: absolute;
-  }
-  
-  .home-page .input-main-2 {
-    display: flex;
-    flex-direction: column;
-    height: 75px;
-    align-items: flex-start;
-    gap: 5px;
-    position: relative;
-    align-self: stretch;
-    width: 100%;
-  }
-  
-  .home-page .frame-5 {
-    align-items: flex-start;
-    flex: 1;
-    flex-grow: 1;
-    border: 1px solid;
-    border-color: #1807071c;
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-    padding: 14px;
-    position: relative;
-    align-self: stretch;
-    width: 100%;
-    background-color: #ffffff;
-    border-radius: 5px;
-  }
-  
-  .home-page .main-btn-5 {
-    all: unset;
-    box-sizing: border-box;
-    gap: 10px;
-    padding: 8px 13px;
-    top: 360px;
-    left: 690px;
-    background-color: #e9983f;
-    display: inline-flex;
-    align-items: center;
-    position: absolute;
-  }
-  .home-page .main-btn-5:hover{
-    gap: 12px;
-    background-color: #d33838;
-  }
+
+  /* .nav-bar.responsive .icon_5 {
+     position: absolute;
+     right: 0;
+     top: 0;
+   }
+   .nav-bar.responsive a {
+     float: none;
+     display: block;
+     text-align: left;
+   } */
+ 
+}
