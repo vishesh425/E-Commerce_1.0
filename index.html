@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="globals.css" />
   <link rel="stylesheet" href="styleguide.css" />
   <link rel="stylesheet" href="./index.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
 </head>
 
 <body>
@@ -39,10 +40,8 @@
 
         <!-- navbar start -->
         <header class="header">
-
           <a href="#"><img class="logo" src="./image/logo.png" /></a>
-          
-          <ul class="nav-bar">
+          <ul class="nav-bar" id="myTopnav">
             <li class="nav-bar-2">
               <a href="#" class="frame-2">
                 <div class="text-wrapper-7">Home</div>
@@ -58,7 +57,7 @@
               <div class="frame-2 dropdown">  
                 <button class="text-wrapper-7 dropbtn">Dropdown   
                 <img class="ci-chevron-down" src="./image/ci_chevron-down.png" />
-<                </button>
+                </button>
                 <div class="dropdown-content">
                   <a href="#">Link 1</a>
                   <a href="#">Link 2</a>
@@ -72,6 +71,10 @@
               </a>
             </li>
           </ul>
+          <a href="javascript:void(0);"  class="icon_5" onclick="myFunction()" >
+            <i class="fa fa-bars"></i>
+            <!-- <img src="./image/three-lines.png" alt="line" /> -->
+          </a>
 
           <div class="questions">
             <a href="#" class="vector-wrapper"><img class="vector" src="./image/Whatsapp.png" /></a>
@@ -331,6 +334,17 @@
       <!-- footer section -->
     </div>
   </div>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "nav-bar") {
+        x.className += " responsive";
+      } else {
+
+        x.className = "nav-bar";
+      }
+    }
+    </script>
 </body>
 
 </html>
